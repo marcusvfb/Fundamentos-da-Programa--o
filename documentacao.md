@@ -41,3 +41,15 @@ not -> Inverte o valor lógico
 
 > local:
 - Ela é criada dentro de uma estrutura. Ela vale somente naquela estrutura e se em um outro nível ela ser utilizada, ela escapa porém pode ser reutilizada. 
+
+# Funções [def]
+-> É um objeto que é guardado numa variável, que contém um block de código ainda não executado.
+Quando você a invoca, o python cria um espaço de nomes novos e temporários.
+[def]-> Palavra-chave que inicia a declaraão da função.
+[nome_funcao]-> Identificador - utlizando o padrão ``snake_case``.
+[parametros]-> Dados de entrada entre parênteses.
+[argumentos] -> Valores que ocupam o lugar dos parâmetros.
+[docstring]-> Documentação entre aspas duplas.
+[corpo]-> Bloco identado contendo a lógica da função.
+[return]-> Valor retornado, se a ``def`` não tiver o return o padrão é ``none(nada)``
+
